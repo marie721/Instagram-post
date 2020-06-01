@@ -1,0 +1,77 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.webpage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 360px;
+    margin-bottom: 3rem;
+    background-color: white;
+    font-size: 14px;
+}
+.post-header {
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.post-title{
+    position: absolute;
+    left: 25px;
+    top: 5px;
+}
+.post-text{
+    position: absolute;
+    left: 25px;
+    top: 20px;  
+}
+.post-image {
+    height: 300px;
+    width: 100%;
+}
+.post-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+    
+}
+.footer-body {
+    display: flex;
+    flex-direction: row;
+}
+.fa-ellipsis-v{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
